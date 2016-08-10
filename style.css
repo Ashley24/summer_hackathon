@@ -28,12 +28,30 @@ body {
     text-align:center;
    
 }
-.btn{
-    background-color:green;
-}
+/*.btn{*/
+/*    background-color:green;*/
+/*}*/
 
 .btn-primary{
     background-image: #000000;
     background-repeat: no-repeat;
 }
-
+a{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align:center;
+}
+a:focus, a:hover {
+    color: #4ac0ff;
+    text-decoration: none;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #ffd46b;
+}
+.nav>li>a {
+    position: relative;
+    
+    text-align: center;
+}
+a
