@@ -6,9 +6,8 @@ body {
      
 }
 .jumbotron{
-    background-color: transparent;
+    background-color: rgba(239,245,249,0.32);
     max-width: 100%;
-    padding-left:300px;
     
 }
 .container{
@@ -18,3 +17,23 @@ body {
     text-transform:uppercase;
     text-align:center;
 }
+.border{
+    padding-left:200px;
+}
+.navbar-collapse{
+    background-color:#FBC02D;
+    padding:10px;
+}
+.jumbotron p{
+    text-align:center;
+   
+}
+.btn{
+    background-color:green;
+}
+
+.btn-primary{
+    background-image: #000000;
+    background-repeat: no-repeat;
+}
+
