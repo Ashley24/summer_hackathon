@@ -1,6 +1,20 @@
-body{
+body {
   
-    background: url("http://previews.123rf.com/images/iimages/iimages1301/iimages130101199/17443503-Illustration-of-a-notice-board-on-a-beach-Stock-Vector-beach-cartoon-drawing.jpg");
+    background-image: url("http://cliparts.co/cliparts/rcL/nRR/rcLnRRoRi.jpg" );
     margin: 0;
     padding: 0;
+     
+}
+.jumbotron{
+    background-color: transparent;
+    max-width: 100%;
+    padding-left:300px;
+    
+}
+.container{
+  width:1025px;
+}
+.jumbotron h1 {
+    text-transform:uppercase;
+    text-align:center;
 }
