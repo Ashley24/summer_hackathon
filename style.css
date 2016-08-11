@@ -3,8 +3,8 @@ body {
     background-image: url("http://cliparts.co/cliparts/rcL/nRR/rcLnRRoRi.jpg" );
     margin: 0;
     padding: 0;
-     
-}
+    background-repeat:no-repeat;
+   }
 .jumbotron{
     background-color: rgba(239,245,249,0.32);
     max-width: 100%;
@@ -18,7 +18,7 @@ body {
     text-align:center;
 }
 .border{
-    padding-left:200px;
+    padding-left:100px;
 }
 .navbar-collapse{
     background-color:#FBC02D;
@@ -89,8 +89,11 @@ button {
     font-size: 16px;
 }
 body {
-    background-color: black;
+    background-color:white;
     text-align:center;
+}
+img{
+    height:256px;
 }
 
 
@@ -101,5 +104,7 @@ body {
      margin:-12px;
  }
 .well{
-    float: left
+    float: left;
+    margin-left: -40px;
+    background-color: transparent
 }
