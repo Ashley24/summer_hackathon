@@ -9,5 +9,8 @@ $("#buttonStart").click(function(){
 //next button show game
 $("#buttonIntro").click(function(){
     $("#Intro").hide();
-    window.location="index2.html"
+    window.location="canvas.html"
 })
+        
+}
+);

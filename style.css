@@ -54,6 +54,9 @@ a:focus, a:hover {
     
     text-align: center;
 }
+.h2{
+    text-align: center;
+}
  li{
   color: purple;
   font-size: 30px;
@@ -63,11 +66,40 @@ a:focus, a:hover {
     font-size: large; 
     text-align: justify-all;
     border: thin;
-    margin: auto;
-    }
+    margin:
+ }
+/* div {*/
+/*    width: 320px;*/
+/*    padding: 10px;*/
+/*    margin: 0;*/
+/*}*/
+
+/* test code*/
+#StartMenu {
+display: block;
+}
+button {
+    background-color: #3056FF;
+    border: none;
+    color:white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+body {
+    background-color: black;
+    text-align:center;
+}
+
+
  
  .brand{
      width: 50px;
      height: 50px;
      margin:-12px;
  }
+.well{
+    float: left
+}

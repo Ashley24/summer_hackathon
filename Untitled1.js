@@ -1,5 +1,6 @@
 // JavaScript File
-var c=document.getElementById("mycanvas");
-var ctx=c.getContext("2d");
-ctx.font="20px Georgia";
-ctx.fillText("Hello World!",10,50);
+var canvas = document.getElementById("ctx");
+  var context = canvas.getContext("2d");
+  context.fillStyle = "blue";
+  context.font = "bold 16px Arial";
+  context.fillText("Zibri", 100, 100);
