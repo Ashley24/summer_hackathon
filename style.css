@@ -64,7 +64,6 @@ a:focus, a:hover {
     text-align: justify-all;
     border: thin;
     margin: auto;
-        
     }
  
  .brand{
@@ -72,6 +71,3 @@ a:focus, a:hover {
      height: 50px;
      margin:-12px;
  }
-.intro{
-    background-color:blue;
-}

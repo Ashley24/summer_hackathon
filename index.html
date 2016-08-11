@@ -11,6 +11,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="intro.js"></script>
     </head>
     <body>
 
@@ -19,7 +20,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="navbar-header">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="Intro.html">
         <img class="brand" alt="" src="https://cdn3.iconfinder.com/data/icons/beach-icons/456/Surfer-512.png">
       </a>
     </div>
@@ -28,25 +29,7 @@
         <li><a href="About.html">About</a></li>
         
       </ul>
-      
-     <!-- <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>-->
-     <!-- <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>-->
-        </li>
+      </li>
       </ul>
     </div><!-- /.navbar-collapse -->
  <div class="main-content">
@@ -55,26 +38,34 @@
 			<div id="content" class="main-content-inner ">   
                   <div class="jumbotron">
                     
+                    
                 <h2>Game title</h2>
                 <div class="border">
-                 <canvas id="ctx" width="500" height= "500" style= "border:1px solid #000000;"></canvas>
-              <!--<nav class="navbar navbar-default">-->
-              <!--  <div class="container-fluid">-->
-                  <!-- Brand and toggle get grouped for better mobile display -->
-              <!--    <div class="navbar-header">-->
-              <!--      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
-              <!--        <span class="sr-only">Toggle navigation</span>-->
-              <!--        <span class="icon-bar"></span>-->
-              <!--        <span class="icon-bar"></span>-->
-              <!--        <span class="icon-bar"></span>-->
-              <!--      </button>-->
-              <!--      <a class="navbar-brand" href="#">Brand</a>-->
-              <!--    </div>-->
+                 <canvas id="mycanvas" width="500" height= "500" style= "border:1px solid #000000;">
+                   <div class="screen" id="StartMenu">
+        <h1>Fashionocalypse</h1>
+        <img src="assets/images/normal.png">
+        <div align="right">
+        <button id=buttonStart>Start</button>
+        </div>
+        </div>
+        <div class="screen" id="Intro">
+            <p>Welcome to the fashionocalypse, </p>
+            <p>All fashion in the world has been drained, only the rich and powerful have the fleeckest clothes and fashion. Anarchy and violence rage throughout cities across the world for the best clothes. You must fight to find the best clothes from the fleeckest enemies. </p>
+            <p>Kim is the most fashionable person in the world. You must kill her and become the queen of earth and space, becoming the fashion icon. You must restore the world to peace from the evil queen Kim Kardashian. You must do this for the future of the world. Good Luck! </p>
+            <div align="right">
+        <button id=buttonIntro>Next</button>
+        </div>
+        </div>
+                 </canvas>
+              
               </div>
               
               <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>-->
               
               </div>
+
+        </div>
       </div>
     </div>
   </div>
